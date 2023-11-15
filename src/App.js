@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Saludo from './components/playground-exercices/Saludo';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        <Saludo titulo = "Hola mundo" subtitulo = "¡Nunca paremos de aprender!" />
+      </main>
     </div>
   );
 }
